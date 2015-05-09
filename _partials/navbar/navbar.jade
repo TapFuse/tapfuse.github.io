@@ -1,0 +1,27 @@
+#navbar.navbar.navbar-default.navbar-fixed-top(role='navigation')
+  .container
+    .navbar-header
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+        span.sr-only Togle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(data-scroll href='#')
+        img.logo(src="img/header_logo@2x.png", alt="TapFuse")
+    .navbar-collapse.collapse
+      ul.nav.navbar-nav.navbar-right
+        li
+          a(data-scroll href='#about' ) ABOUT US
+        li
+          a(data-scroll href='#team') TEAM
+        li
+          a(data-scroll href='#products') PRODUCTS
+
+        li
+          a( data-scroll href='#clients') CLIENTS
+
+        li
+          a(data-scroll href='#jobs') JOBS
+
+        li
+          a.modal-btn(data-scroll href='#footer') CONTACT US
