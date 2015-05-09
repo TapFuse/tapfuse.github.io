@@ -3,8 +3,6 @@ Tapfuse.github.io
 http://tapfuse.github.io/
 
 
-# Editing content
-
 
 Page source repository
 =======================================
