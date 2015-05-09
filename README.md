@@ -12,3 +12,6 @@ Inside project folder run `harp compile ./ ../tapfuse-output` this will create a
 
 #### TEST:
 You can run `harp server` inside the `tapfuse-output` folder to test the site locally.
+
+#### DEPLOY:
+Commit `eventSpark-output` folder contents to `master` branch of this repository and sync.
