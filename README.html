@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="author" content="TapFuse"><title>Event management software platform</title><link rel="stylesheet" href="styles.css"><meta name="viewport" content="minimal-ui, width=device-width,  initial-scale=1, maximum-scale=1.0, minimum-scale=1, user-scalable=no"><meta name="description" content="TapFuse provides online software for Event Management, Web Surveys, &amp; Email Marketing. Explore our leading Conference, Exhibition, Event and white label App solutions."><meta name="HandheldFriendly" content="True"><meta name="MobileOptimized" content="320"><meta http-equiv="cleartype" content="on"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="Event management software platform"></head><body data-spy="scroll" data-offset="65" target="#navbar"><h1>Instructions</h1><h3>Install Harp server</h3><p><code>sudo npm install -g harp</code>
+More info: <a href="http://harpjs.com">http://harpjs.com</a></p>
+<h4>RUN:</h4><p>Inside project folder run <code>harp server</code> this will create a basic HTTP server and compile all <em>.jade</em> and <em>.less</em> files on the fly. By default you can access the site at <code>http://localhost:9000/</code></p>
+<h4>COMPILE:</h4><p>Inside project folder run <code>harp compile ./ ../tapfuse-output</code> this will create a <code>tapfuse-output</code> folder with html file and all the assets required to deploy the site.</p>
+<h4>TEST:</h4><p>You can run <code>harp server</code> inside the <code>tapfuse-output</code> folder to test the site locally.</p>
+<h4>DEPLOY:</h4><p>Commit <code>eventSpark-output</code> folder contents to <code>master</code> branch of this repository and sync.</p></body><script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/vivus/0.2.1/vivus.min.js"></script><script type="text/javascript" src="js/libs.js"></script><script>smoothScroll.init({
+speed: 1000,
+easing: 'easeInOutCubic',
+offset: 65,
+updateURL: true,
+callbackBefore: function ( toggle, anchor ) {},
+callbackAfter: function ( toggle, anchor ) {}
+});
+
+
+$(document).on('click','.navbar-collapse.in',function(e) {
+if( $(e.target).is('a') ) {
+$(this).collapse('hide');
+}
+});
+</script><script>new Vivus('animation', {type: 'delayed', duration: 100});</script></html>
